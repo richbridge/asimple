@@ -1,0 +1,11 @@
+# Cloudflare Pages 配置
+# 文档：https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/
+#
+# 在 Cloudflare 控制台 → Pages → Settings → Environment variables 中添加：
+#   HUGO_VERSION = 0.163.3
+#   HUGO_ENV     = production
+# （Preview / Production 环境均需设置）
+
+name = "hugo-theme-aiovtue"
+compatibility_date = "2026-06-28"
+pages_build_output_dir = "./public"

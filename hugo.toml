@@ -1,0 +1,234 @@
+baseURL = 'https://your-web-URL'   # 你的站点地址
+defaultContentLanguage = 'zh-cn'
+locale = 'zh-cn'
+timeZone = 'Asia/Shanghai'
+title = 'AIOVTUE-雪'
+theme = 'aiovt-simple'      # 主题，不要动
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  description = '雨滴会记录生命中的每一个瞬间'
+
+  [params.profile]
+    avatar = '/img/avatar.png'    # 站点头像，也可以替换为图床
+    greeting = '你好，我是'
+    name = 'AIOVTUE-雪'
+
+  [params.hero]
+
+    [params.hero.tagline]
+      before = '我将用我残存的'       
+      highlight = '余生'           # 高亮部分
+      middle = '来回忆那略显模糊的'
+      tag = '过往'                 # 代码框部分
+
+  [params.stats]
+    enabled = true
+    start_date = '2003-03-27'         # 页脚计时起始时间
+
+  [params.footer]
+    icp = '萌ICP备20259977号'        #页脚备案
+    icp_url = 'https://icp.gov.moe/?keyword=20259977'   #备案地址
+    copyright_from = 2003
+    copyright_name = 'AIOVTUE'
+    life_text = '我来到这个世界已经'
+    birth_date = '2003-03-27T00:00:00+08:00'
+
+  [params.hitokoto]
+    enabled = true           # 一言部分
+    fallback = '一言加载失败，点击重试'
+    show_from = true
+    interval = 30
+    seen_max = 100
+    # type = 'd'  # 可选：a动画 b漫画 c游戏 d文学 e原创 f网络 g其他 h影视 i诗词 j网易云 k哲学
+
+  [params.loader]
+    enabled = true
+    min_duration = 300
+    max_duration = 6000
+
+  [params.twikoo]
+    envId = 'https://your-twikoo-URL'     # twikoo评论模块，改成你自己的地址
+    lang = 'zh-CN'
+    version = '1.7.13'
+
+  [params.post]
+    default_cover = 'img/default-post-cover.png'   # 文章默认图片，也支持图床
+
+  [params.home]
+    # 桌面端首页文章列表：orbit 行星环 | timeline 时间轴
+    desktop_posts_view = 'orbit'    # 首页文章列表显示样式
+    # 桌面端时间轴首屏显示篇数（移动端仍为 10 篇 + 显示全部）
+    desktop_timeline_limit = 8
+
+    [params.home.musings]
+      enabled = true
+      label = 'MUSINGS'
+      title = '碎念'
+      limit = 6
+
+    [params.home.closing]
+      enabled = true
+      welcome = '欢迎来信'
+      mark_label = '留下印记'
+      mark_url = '/guestbook'
+      subscribe_label = '订阅通信'
+      subscribe_url = '/index.xml'
+
+  [params.thoughts]
+    label = 'MOMENTS'
+    title = '动态'
+    subtitle = '感君倾耳。'
+    rss = '/thoughts/index.xml'
+    initial_count = 6
+    load_batch = 4
+    comments = true
+
+  [params.friends]
+    label = 'LINKS'
+    title = '朋友们'
+    subtitle = '海内存知己，天涯若比邻。'
+    comments = true
+    comments_title = '友链申请'
+
+    [params.friends.notice]
+      enabled = true                      #友链页公告部分
+      info_title = '本站友链信息如下：'
+      siteshot = 'https://r2tc.20030327.xyz/file/博客/友链/1782648663355_1782648636757.png'      # 站点截图
+
+      [[params.friends.notice.rules]]
+        icon = '🎉'
+        text = '本站支持交换友链，在您提出申请之前，请将本站添加到友链'
+
+      [[params.friends.notice.rules]]
+        icon = '☕'
+        text = '为了保障本站用户，本站仅支持个人网站的友链申请'
+
+      [[params.friends.notice.rules]]
+        icon = '💡'
+        text = '申请本站友链需要拥有独立域名（非免费域名），建议开启全站 HTTPS'
+
+      [[params.friends.notice.rules]]
+        icon = '⏳'
+        text = '如果友情链接已经添加，请保持网站的正常访问，会定期清理僵尸网站'
+
+      [[params.friends.notice.rules]]
+        icon = '🐚'
+        text = '网站有一定的实质性内容和主题，不能是空壳网站和练手网站'
+
+      [[params.friends.notice.rules]]
+        icon = '💕'
+        text = '感谢您对本站的支持，如果您已经满足上述要求，请在下方表单提交友链申请~~~'
+
+      [params.friends.notice.site]
+        # 留空则自动读取站点 profile / description / baseURL    # 友链页本站信息部分，有问题才设置
+        # name = 'AIOVTUE-雪'
+        # url = 'https://daily.yybb.us/'
+        # avatar = ''
+        # description = ''
+        # siteshot = ''
+
+  [params.about]
+    label = 'ABOUT'
+    title = '关于'
+    subtitle = '很高兴在这里遇见你。'
+    comments = true
+    comments_title = '留言'
+
+  [params.guestbook]
+    label = 'GUESTBOOK'
+    title = '留言'
+    subtitle = '欢迎在此留下你的足迹。'
+
+  [params.posts]
+    label = 'BLOG'
+    title = '文章'
+    per_page = 10
+
+  [params.search]
+    enabled = true
+    sections = ['posts', 'thoughts']
+    placeholder = '搜索文章、动态…'
+    hint = '输入关键词搜索，按 Ctrl+K 或 Esc 关闭'
+    empty = '没有找到相关内容'
+
+    [params.search.section_labels]
+      posts = '文章'
+      thoughts = '动态'
+
+  [params.archives]
+    label = 'ARCHIVES'
+    initial_count = 24
+    load_batch = 12
+
+[[params.social]]
+  name = 'RSS'                # 社交图标部分
+  link = '/index.xml'
+  icon = 'ri:rss-line'
+  color = 'orange'
+
+[[params.social]]
+  name = 'GitHub'
+  link = 'https://github.com/AIOVTUE'
+  icon = 'ri:github-line'
+  color = '#6e5494'
+
+[[params.social]]
+  name = 'E-Mail'
+  link = 'mailto:x@yybb.us'
+  icon = 'ri:mail-line'
+  color = '#8E71C1'
+
+[[menus.main]]
+name = '首页'
+pageRef = '/'
+weight = 1
+
+[[menus.main]]
+name = '文章'
+pageRef = '/posts'
+weight = 2
+
+[[menus.main]]
+name = '归档'
+url = '/archives'
+weight = 3
+
+[[menus.main]]
+name = '动态'
+url = '/thoughts'
+weight = 4
+
+[[menus.main]]
+name = '友链'
+url = '/friends'
+weight = 5
+
+[[menus.main]]
+name = '留言'
+url = '/guestbook'
+weight = 6
+
+[[menus.main]]
+name = '关于'
+url = '/about'
+weight = 7
+
+[pagination]
+  pagerSize = 10
+  path = 'page'
+
+[minify]
+  minifyOutput = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = 'github'
+    lineNos = false
+    noClasses = false
+    tabWidth = 4

@@ -1,0 +1,48 @@
+
+
+groups:
+  - name: 紧密相连
+    desc: 里面有一些站长自己的网站哦（紧密相连限量八个哦，快来申请吧~）
+    links:
+      - url: https://live.yybb.us/
+        avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
+        name: "AIOVTUE'Live"
+        blog: "AIOVTUE'Live"
+        desc: 所爱隔山海，山海不可平
+        color: '#0078e7'
+        siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106866919_1780909850378_1780909790262.jpg
+
+      - url: https://yybb.us
+        avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
+        name: "AIOVTUE's blog"
+        blog: "AIOVTUE's blog"
+        desc: 雨是神的烟花
+        color: '#0078e7'
+        siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106889251_1782106583220.jpg
+
+      - url: https://bk.yybb.us
+        avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
+        name: "aiovtue'rin blog"
+        blog: "aiovtue'rin blog"
+        desc: 四分之三欢喜
+        color: '#e07a96'
+        siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106905059_LqvQ7D2x.jpg
+
+      - url: https://20030327.xyz/
+        avatar: https://r2tc.20030327.xyz/file/博客/主题/1780655293662_avatar_me.jpg.PNG
+        name: "AIOVTUE's blog"
+        blog: "AIOVTUE's blog"
+        desc: 我想要如清泉般的爱
+        color: '#e07a96'
+        siteshot: https://r2tc.20030327.xyz/file/博客/友链/1782106913431_68a8432258cb8da5c842bfaf.jpg
+
+  - name: 推荐网站
+    desc: 这里是最熟悉的小伙伴（位置不限量哦~）
+    links:
+      - url: https://example.com/xeu
+        avatar: https://api.dicebear.com/7.x/adventurer/svg?seed=xeu
+        name: 友链出租哦~
+        blog: 友链出租哦~
+        desc: 有没有心动呢~
+        color: '#6b8cff'
+        pinLast: true

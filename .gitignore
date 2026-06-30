@@ -1,0 +1,7 @@
+/public/
+/resources/
+.hugo_build.lock
+obsidian/hugo-blog-cache/
+/obsidian/
+/public/
+

@@ -1,0 +1,10 @@
+{
+  "name": "hugo-theme-aiovtue",
+  "private": true,
+  "description": "AIOVTUE-雪 · Hugo 博客站点",
+  "scripts": {
+    "build": "bash scripts/build.sh",
+    "dev": "hugo server -D",
+    "preview": "hugo server --disableFastRender"
+  }
+}
