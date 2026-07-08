@@ -2,7 +2,7 @@
 
 echo -e "-------------------- 开始部署 --------------------"
 
-git pull origin main
+# git pull origin main
 
 git submodule update --remote --merge content/posts
 # git submodule update --remote --merge source/img
