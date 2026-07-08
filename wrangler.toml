@@ -6,6 +6,6 @@
 #   HUGO_ENV     = production
 # （Preview / Production 环境均需设置）
 
-name = "hugo-theme-aiovtue"
+name = "asimple"
 compatibility_date = "2026-06-28"
 pages_build_output_dir = "./public"
