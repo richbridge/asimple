@@ -9,6 +9,3 @@
 name = "asimple"
 compatibility_date = "2026-06-28"
 pages_build_output_dir = "./public"
-
-[build]
-command = "curl -L -f -o hugo.tar.gz https://github.com/gohugoio/hugo/releases/download/v0.160.1/hugo_extended_0.160.1_linux-amd64.tar.gz && tar -xzf hugo.tar.gz && chmod +x hugo && ./hugo --minify"
